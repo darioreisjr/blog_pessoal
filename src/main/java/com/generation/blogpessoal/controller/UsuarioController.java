@@ -43,8 +43,6 @@ public class UsuarioController {
 		
 	}
 
-	
-	
 	@GetMapping
 	public ResponseEntity<List<Usuario>> getall(){
 		return ResponseEntity.ok(repository.findAll());
